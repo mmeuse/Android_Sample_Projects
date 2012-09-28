@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:id="@+id/easy"
+		android:title="easy"
+		android:icon="@android:drawable/ic_menu_myplaces" />
+	<item 
+		android:id="@+id/medium"
+		android:title="medium"
+		android:icon="@android:drawable/ic_menu_myplaces" />
+	<item 
+		android:id="@+id/hard"
+		android:title="hard"
+		android:icon="@android:drawable/ic_menu_myplaces" />
+	<item 
+		android:id="@+id/shuffle"
+		android:title="shuffle"
+		android:icon="@android:drawable/ic_menu_compass" />
+	<item 
+		android:id="@+id/pickImage"
+		android:title="select image"
+		android:icon="@android:drawable/ic_menu_delete" />
+		
+</menu>

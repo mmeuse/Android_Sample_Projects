@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome To the Gunks Experiment!</string>
+    <string name="app_name">Gunks Experiment 90857932</string>
+    <string name="icon_0">View Routes Alphabetically</string>
+    <string name="icon_1">View Routes By Difficulty</string>
+    <string name="icon_2">My Wish List</string>
+    <string name="icon_3">My Tick List</string>
+    <string name="icon_4">Driving Directions</string>
+    <string name="icon_5">Weather</string>
+    <string name="icon_6">Food/Lodging Links</string>
+    <string name="icon_7">Gear Shop Links</string>
+    <string name="confirm">Confirm</string>
+</resources>

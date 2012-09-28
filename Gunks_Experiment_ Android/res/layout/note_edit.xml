@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:gravity="left"
+     android:orientation="vertical" >
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+		    android:orientation="horizontal" > 
+		 		<EditText
+		 		    android:id="@+id/climb_name"
+		 		    android:layout_width="fill_parent"
+		 		    android:layout_height="fill_parent"
+		 		    android:editable="false"
+		 		    android:textAppearance="?android:attr/textAppearanceLarge" />
+		</LinearLayout>
+		<LinearLayout 
+			android:orientation="horizontal"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content">
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="50dp"
+			        android:text="Difficulty:"
+			        android:textAppearance="?android:attr/textAppearanceLarge" />
+				 <EditText
+				    android:id="@+id/climb_difficulty"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:editable="false" />
+		</LinearLayout>
+		<LinearLayout 
+			android:orientation="horizontal"  
+			android:layout_width="wrap_content"  
+			android:layout_height="50dp"> 
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="50dp"
+				    android:text="Pitch Count:"
+				    android:textAppearance="?android:attr/textAppearanceLarge" />
+			    <EditText
+			        android:id="@+id/climb_pitchcount"
+			   		android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"
+					android:editable = "false"/>
+		</LinearLayout>
+		<LinearLayout 
+			android:orientation="horizontal"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"> 
+				<TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="50dp"
+				    android:text="Vertical Feet:"
+				    android:textAppearance="?android:attr/textAppearanceLarge" />				         
+			    <EditText
+			        android:id="@+id/climb_verticalft"
+			    	android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+					android:editable = "false"/>
+		</LinearLayout>
+				
+		<LinearLayout 
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"> 
+			    <EditText
+			        android:id="@+id/climb_description"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:editable="false" />	
+		</LinearLayout>
+				<TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="50dp"
+				    android:text="Route Photo:"
+				    android:textAppearance="?android:attr/textAppearanceLarge" />	
+				<ImageView
+				    android:id="@+id/climbingImage"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"/>
+		
+		<LinearLayout
+		    android:id="@+id/wishTickButtonLayout"
+		    android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"
+			android:orientation="vertical"> 
+		    
+		</LinearLayout>
+		<Button
+		        android:id="@+id/close_description"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent"
+		        android:text="Close"/>
+
+ </LinearLayout>
+</ScrollView>

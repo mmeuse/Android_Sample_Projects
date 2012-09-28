@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.cs76.projects.GunksExperiment90857932"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/icon_0" >
+        android:label="@string/app_name" >
+        
+        <uses-library android:name="com.google.android.maps" />
+        
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ClimbingRoute"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SearchRoutes"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".FoodLodgingActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".GearShopActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".WeatherActivity"
+             android:label="@string/app_name" 
+             android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+</manifest>

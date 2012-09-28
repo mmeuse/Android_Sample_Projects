@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/FoodLodgeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/FoodLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food near the Gunks:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+         <TextView
+            android:id="@+id/BacchusLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"   
+            android:text="http://www.bacchusnewpaltz.com/"
+            />
+         
+          <TextView
+            android:id="@+id/LaBellaLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"   
+            android:text="http://labellapizzabistro.com/"
+            />
+            
+           <TextView
+            android:id="@+id/MexicaliBlueLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"   
+            android:text="http://mexicali-blue.com/"
+            />
+            
+           <TextView
+            android:id="@+id/MountainBrauLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"   
+            android:text="http://www.mountainbrauhaus.com/home.html"
+            />
+        
+         <TextView
+             android:id="@+id/LodgingLabel"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="25sp"
+             android:text="Lodging near the Gunks:"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+          <TextView
+            android:id="@+id/SuperEightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:autoLink="web"   
+            android:text="http://www.super8newpaltz.com/"
+            />
+          
+           <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"   
+            android:text="http://newpaltzhostel.com/"
+            />
+        
+    </LinearLayout>
